@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+.banner-container img{
+  height: 580px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

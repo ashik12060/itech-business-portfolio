@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHandshake, faLightbulb, faCircleCheck, faCheck } from '@fortawesome/free-solid-svg-icons';
 import Banner from '../Banner/Banner';
 import image from '../../images/business-meeting.jpg'
+import Contact from '../Contact/Contact';
+import About from '../About/About';
 
 
 const Home = () => {
@@ -179,6 +181,8 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+
+        
         </>
 
     )

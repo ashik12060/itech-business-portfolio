@@ -5,6 +5,9 @@ import Banner from '../Banner/Banner';
 import image from '../../images/business-meeting.jpg'
 import Contact from '../Contact/Contact';
 import About from '../About/About';
+import img1 from '../../images/3569284.jpg';
+import img2 from '../../images/6256247.jpg';
+import img3 from '../../images/Na_Nov_30.jpg';
 
 
 const Home = () => {
@@ -16,8 +19,8 @@ const Home = () => {
                 <div>
                     <div className='mt-36'>
 
-                        <h1 className="text-center text-5xl font-semibold text-[#041436]">Welcome to ITECH Ltd.</h1>
-                        <hr className='mx-72 mt-4 border-2 border-[#ff5e14]'/>
+                        <h1 className="text-center text-5xl font-semibold text-[#041436]">Welcome to ITECH Software Ltd.</h1>
+                        <hr className='mx-60 mt-4 border-2 border-[#ff5e14]' />
 
                     </div>
 
@@ -57,11 +60,10 @@ const Home = () => {
                 </div>
             </section>
 
-
-            <section className="mt-24">
+            <section className="mt-24 pb-10">
                 <div className="flex flex-row">
                     <div className='w-2/4'>
-                 
+
                         <img className=" h-4/5 m-24 rounded" src={image} alt="" />
                     </div>
 
@@ -86,30 +88,14 @@ const Home = () => {
 
 
                 </div>
-                <div className="flex flex-row w-11/12 m-20 p-10 bg-[#ff5e14] text-center rounded">
-                    <div className="w-1/3 text-left bg-[white] p-6 m-2 rounded">
-                        <h2 className="text-2xl font-bold">9 Years of Experience</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, est.</p>
-
-                    </div>
-                    <div className="w-1/3 text-left bg-[white] p-6 m-2 rounded">
-                        <h2 className="text-2xl font-bold">Experienced Workers</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, est.</p>
-                    </div>
-                    <div className="w-1/3 text-left bg-[white] p-6 m-2 rounded">
-                        <h2 className="text-2xl font-bold">100+ Awards
-                        </h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, est.</p>
-                    </div>
-                </div>
-
+                
             </section>
 
-            <section className="bg-[#1e1b4b]">
+            <section className="bg-[#1e1b4b] pb-10">
                 <div>
                     <div className='text-center text-5xl font-bold text-[white]' >
                         <h1 className='pt-24'>Why we are the best</h1>
-                        <hr className='mx-72 mt-4 border-2 border-[#ff5e14]'/>
+                        <hr className='mx-72 mt-4 border-2 border-[#ff5e14]' />
                     </div>
 
                     <div className='grid grid-cols-2 text-center mt-20'>
@@ -139,7 +125,7 @@ const Home = () => {
                                 <div><FontAwesomeIcon className=" text-[#ff5e14] text-2xl font-bold" icon={faCheck} /> </div>
                                 <div className=" mx-3">
                                     <h3 className='text-3xl font-bold text-[white]'>Customer Focused
-</h3>
+                                    </h3>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto at dolorum quidem illum soluta sint.</p>
                                 </div>
                             </div>
@@ -150,7 +136,7 @@ const Home = () => {
                                 <div><FontAwesomeIcon className=" text-[#ff5e14] text-2xl font-bold" icon={faCheck} /> </div>
                                 <div className=" mx-3">
                                     <h3 className='text-3xl font-bold text-[white]'>Quality sub-trades
-</h3>
+                                    </h3>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto at dolorum quidem illum soluta sint.</p>
                                 </div>
                             </div>
@@ -162,7 +148,7 @@ const Home = () => {
 
                                 <div className=" mx-3">
                                     <h3 className='text-3xl font-bold text-[white]'>Build Guarantee
-</h3>
+                                    </h3>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto at dolorum quidem illum soluta sint.</p>
                                 </div>
                             </div>
@@ -182,7 +168,26 @@ const Home = () => {
                 </div>
             </section>
 
-        
+            <section>
+            <div className="flex flex-row w-11/12 m-20 p-10 bg-[#ff5e14] text-center rounded">
+                    <div className="w-1/3 text-left bg-[white] p-6 m-2 rounded">
+                        <h2 className="text-2xl font-bold">9 Years of Experience</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, est.</p>
+
+                    </div>
+                    <div className="w-1/3 text-left bg-[white] p-6 m-2 rounded">
+                        <h2 className="text-2xl font-bold">Experienced Workers</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, est.</p>
+                    </div>
+                    <div className="w-1/3 text-left bg-[white] p-6 m-2 rounded">
+                        <h2 className="text-2xl font-bold">100+ Awards
+                        </h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, est.</p>
+                    </div>
+                </div>
+            </section>
+
+
         </>
 
     )

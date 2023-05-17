@@ -4,6 +4,8 @@ import Contact from './pages/Contact/Contact';
 import Header from './pages/Header/Header';
 import Home from './pages/Home/Home';
 import {BrowserRouter,Routes, Route} from 'react-router-dom';
+import Products from './pages/Products/Products';
+import Footer from './pages/Footer/Footer';
 
 function App() {
   return (
@@ -20,7 +22,10 @@ function App() {
         </Route>
         <Route path='/contact' element={<Contact></Contact>}>
         </Route>
+
+        <Route path="/products" element={<Products></Products>}></Route>
       </Routes>
+      <Footer></Footer>
       </BrowserRouter>
      
      

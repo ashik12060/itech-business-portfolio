@@ -25,7 +25,7 @@ const Contact = () => {
 
 
                             <div className='text-left mt-6 '>
-                                <button className='bg-[#ff5e14] hover:bg-[white]  rounded-lg text-white text-xl px-5 py-3 '><a href="#home">Send Message</a></button>
+                                <button className='bg-[#ff5e14] hover:bg-[white] hover:text-[black] border-2 border-[#ff5e14] rounded-lg text-white text-xl px-5 py-3 '><a href="#home">Send Message</a></button>
                             </div>
                         </div>
                     </form>

@@ -64,57 +64,38 @@ const About = () => {
                 </div>
             </section>
 
-
+{/* .........................................card.................................................... */}
             <section>
-                <div>
-                    <div className='text-center text-5xl font-semibold my-20'>
-                        <h1>Our Management Profile</h1>
+                <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
+                    <div className="py-10">
+                        <div className='rounded-2 overflow-hidden shadow-lg max-w-sm'>
+                            <img src={img1} alt="" className='h-48  w-full'/>
+                        </div>
                     </div>
-                    <div className="grid grid-cols-2 w-11/12 mx-auto text-center">
-                        <div className='m-6 '>
-                            <div>
-                                <img className='w-2/4 h-80 rounded-4 mx-40 ' src={img1} alt="" />
-                            </div>
-                            <h1>Mark Olive </h1>
-                            <p>Founder & CEO</p>
+                    <div className="py-10">
+                        <div className='rounded-2 overflow-hidden shadow-lg max-w-sm'>
+                            <img src={img2} alt="" className='h-48  w-full'/>
                         </div>
-
-                        <div className="m-6 ">
-
-                            <div>
-                                <img className='w-2/4 h-80 rounded-4 mx-40 ' src={img2} alt="" />
-                            </div>
-                            <h1>Amina Mushfika </h1>
-                            <p>HR</p>
+                    </div>
+                    <div className="py-10">
+                        <div className='rounded-2 overflow-hidden shadow-lg max-w-sm'>
+                            <img src={img3} alt="" className='h-48  object-center w-full'/>
                         </div>
-
-                        <div className=" m-6">
-                            <div>
-                                <img className='w-2/4 h-80 rounded-4 mx-40 ' src={img3} alt="" />
-                            </div>
-                            <h1>Mark Ader</h1>
-                            <p>Developer</p>
+                    </div>
+                    <div className="py-10">
+                        <div className='rounded-2 overflow-hidden shadow-lg max-w-sm'>
+                            <img src={img4} alt="" className='h-48  w-full'/>
                         </div>
-                        <div className=" m-6">
-                            <div>
-                                <img className='w-2/4 h-80 rounded-4 mx-40 ' src={img4} alt="" />
-                            </div>
-                            <h1>Philip Luis </h1>
-                            <p>Designer</p>
+                    </div>
+                    <div className="py-10">
+                        <div className='rounded-2 overflow-hidden shadow-lg max-w-sm'>
+                            <img src={img5} alt="" className='h-48  w-full'/>
                         </div>
-                        <div className=" m-6">
-                            <div>
-                                <img className='w-2/4 h-80 rounded-4 mx-40 ' src={img5} alt="" />
-                            </div>
-                            <h1>Henry Arg </h1>
-                            <p>Manager</p>
+                    </div>
+                    <div className="py-10">
+                        <div className='rounded-2 overflow-hidden shadow-lg max-w-sm'>
+                            <img src={img6} alt="" className='h-48  w-full'/>
                         </div>
-                        <div className=" m-6">
-                            <div>
-                                <img className='w-2/4 h-80 rounded-4 mx-40 ' src={img6} alt="" />
-                            </div>
-                            <h1>James Salmon </h1>
-                            <p>Product Head</p></div>
                     </div>
                 </div>
             </section>

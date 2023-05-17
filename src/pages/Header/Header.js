@@ -2,11 +2,11 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <header className='bg-[#ff5e14] py-8'>
+        <header className='bg-[#ff5e14] py-8 sticky top-0 z-50'>
             <nav className="flex justify-between items-center w-[90%]  mx-auto">
                 <div>
                     <h1>
-                    <a className='text-5xl font-semibold' href="#home">ITE<span className='text-white'>CH</span></a>
+                    <a className='text-5xl font-semibold' href="/home">ITE<span className='text-white'>CH</span></a>
                     </h1>
                     
                 </div>

@@ -66,6 +66,7 @@ const About = () => {
             <div className="lg:mx-18   gap-2 lg:p-10 md:p-8 sm:p-4 p-2">
               <h2 className="text-4xl font-semibold mb-4">Our Mission</h2>
 
+<<<<<<< HEAD
               <p classname="text-xl">
                 Your trusted companion for digital leadership by empowering
                 people to achieve more with less
@@ -159,6 +160,43 @@ const About = () => {
               <p>Product Head</p>
             </div>
           </div>
+=======
+{/* .........................................card.................................................... */}
+            <section>
+                <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
+                    <div className="py-10">
+                        <div className='rounded-2 overflow-hidden shadow-lg max-w-sm'>
+                            <img src={img1} alt="" className='h-48  w-full'/>
+                        </div>
+                    </div>
+                    <div className="py-10">
+                        <div className='rounded-2 overflow-hidden shadow-lg max-w-sm'>
+                            <img src={img2} alt="" className='h-48  w-full'/>
+                        </div>
+                    </div>
+                    <div className="py-10">
+                        <div className='rounded-2 overflow-hidden shadow-lg max-w-sm'>
+                            <img src={img3} alt="" className='h-48  object-center w-full'/>
+                        </div>
+                    </div>
+                    <div className="py-10">
+                        <div className='rounded-2 overflow-hidden shadow-lg max-w-sm'>
+                            <img src={img4} alt="" className='h-48  w-full'/>
+                        </div>
+                    </div>
+                    <div className="py-10">
+                        <div className='rounded-2 overflow-hidden shadow-lg max-w-sm'>
+                            <img src={img5} alt="" className='h-48  w-full'/>
+                        </div>
+                    </div>
+                    <div className="py-10">
+                        <div className='rounded-2 overflow-hidden shadow-lg max-w-sm'>
+                            <img src={img6} alt="" className='h-48  w-full'/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+>>>>>>> e2e3b9fb60f7e5c7ddc6c90976d30157bdbab061
         </div>
       </section>
     </div>

@@ -5,10 +5,16 @@ import Banner from '../Banner/Banner';
 import image from '../../images/business-meeting.jpg'
 import Contact from '../Contact/Contact';
 import About from '../About/About';
+<<<<<<< HEAD
 import news1 from '../../images/news1.jpg'
 import news2 from '../../images/news2.jpg'
 import news3 from '../../images/news3.jpg'
 import Footer from '../Footer/Footer';
+=======
+import img1 from '../../images/3569284.jpg';
+import img2 from '../../images/6256247.jpg';
+import img3 from '../../images/Na_Nov_30.jpg';
+>>>>>>> e2e3b9fb60f7e5c7ddc6c90976d30157bdbab061
 
 
 const Home = () => {
@@ -20,8 +26,13 @@ const Home = () => {
                 <div>
                     <div className='mt-36'>
 
+<<<<<<< HEAD
                         <h1 className="text-center text-5xl font-semibold text-[#041436]">Welcome to ITECH Ltd.</h1>
                         <hr className='lg:mx-72 md:mx-60 sm:mx-40 mt-4 border-2 border-[#ff5e14]'/>
+=======
+                        <h1 className="text-center text-5xl font-semibold text-[#041436]">Welcome to ITECH Software Ltd.</h1>
+                        <hr className='mx-60 mt-4 border-2 border-[#ff5e14]' />
+>>>>>>> e2e3b9fb60f7e5c7ddc6c90976d30157bdbab061
 
                     </div>
 
@@ -61,12 +72,20 @@ const Home = () => {
                 </div>
             </section>
 
+<<<<<<< HEAD
 
             <section className="mt-24">
                 <div className="flex lg:flex-row md:flex-col sm:flex-col flex-col">
                     <div className='lg:w-2/4 md:w-full sm:w-full'>
                  
                         <img className=" h-4/5 lg:m-20  rounded" src={image} alt="meeting" />
+=======
+            <section className="mt-24 pb-10">
+                <div className="flex flex-row">
+                    <div className='w-2/4'>
+
+                        <img className=" h-4/5 m-24 rounded" src={image} alt="" />
+>>>>>>> e2e3b9fb60f7e5c7ddc6c90976d30157bdbab061
                     </div>
 
                     <div className='pl-2'>
@@ -91,6 +110,7 @@ const Home = () => {
 
                 </div>
                 
+<<<<<<< HEAD
             </section>
 
             <section className='overflow-hidden'>
@@ -117,6 +137,15 @@ const Home = () => {
                     <div className='text-center text-5xl font-bold text-[white]' >
                         <h1 className='pt-24'>Why we are the best</h1>
                         <hr className='lg:mx-72 mt-4 border-2 border-[#ff5e14]'/>
+=======
+            </section>
+
+            <section className="bg-[#1e1b4b] pb-10">
+                <div>
+                    <div className='text-center text-5xl font-bold text-[white]' >
+                        <h1 className='pt-24'>Why we are the best</h1>
+                        <hr className='mx-72 mt-4 border-2 border-[#ff5e14]' />
+>>>>>>> e2e3b9fb60f7e5c7ddc6c90976d30157bdbab061
                     </div>
 
                     <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 text-center mt-20'>
@@ -146,7 +175,7 @@ const Home = () => {
                                 <div><FontAwesomeIcon className=" text-[#ff5e14] text-2xl font-bold" icon={faCheck} /> </div>
                                 <div className=" mx-3">
                                     <h3 className='text-3xl font-bold text-[white]'>Customer Focused
-</h3>
+                                    </h3>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto at dolorum quidem illum soluta sint.</p>
                                 </div>
                             </div>
@@ -157,7 +186,7 @@ const Home = () => {
                                 <div><FontAwesomeIcon className=" text-[#ff5e14] text-2xl font-bold" icon={faCheck} /> </div>
                                 <div className=" mx-3">
                                     <h3 className='text-3xl font-bold text-[white]'>Quality sub-trades
-</h3>
+                                    </h3>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto at dolorum quidem illum soluta sint.</p>
                                 </div>
                             </div>
@@ -169,7 +198,7 @@ const Home = () => {
 
                                 <div className=" mx-3">
                                     <h3 className='text-3xl font-bold text-[white]'>Build Guarantee
-</h3>
+                                    </h3>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto at dolorum quidem illum soluta sint.</p>
                                 </div>
                             </div>
@@ -189,6 +218,7 @@ const Home = () => {
                 </div>
             </section>
 
+<<<<<<< HEAD
 
             <section>
                 <div className='bg-[#fffafa]'>
@@ -242,13 +272,34 @@ const Home = () => {
                             <p className="ms-6 text-[#1e1b4b] font-bold pt-4">Read Details  <FontAwesomeIcon icon={faArrowRight} /></p>
 
                         </div>                
+=======
+            <section>
+            <div className="flex flex-row w-11/12 m-20 p-10 bg-[#ff5e14] text-center rounded">
+                    <div className="w-1/3 text-left bg-[white] p-6 m-2 rounded">
+                        <h2 className="text-2xl font-bold">9 Years of Experience</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, est.</p>
+
+                    </div>
+                    <div className="w-1/3 text-left bg-[white] p-6 m-2 rounded">
+                        <h2 className="text-2xl font-bold">Experienced Workers</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, est.</p>
+                    </div>
+                    <div className="w-1/3 text-left bg-[white] p-6 m-2 rounded">
+                        <h2 className="text-2xl font-bold">100+ Awards
+                        </h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, est.</p>
+>>>>>>> e2e3b9fb60f7e5c7ddc6c90976d30157bdbab061
                     </div>
                 </div>
             </section>
 
+<<<<<<< HEAD
             <Footer/>
 
         
+=======
+
+>>>>>>> e2e3b9fb60f7e5c7ddc6c90976d30157bdbab061
         </>
 
     )

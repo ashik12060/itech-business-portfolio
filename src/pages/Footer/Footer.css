@@ -3,8 +3,13 @@ li{
     list-style-type:none;
 }
 li:hover{
+<<<<<<< HEAD
     transition: 1s;
     color: #ff5e14;
     border-bottom: 1px solid;
 }
 
+=======
+    color:#ff5e14;
+}
+>>>>>>> e2e3b9fb60f7e5c7ddc6c90976d30157bdbab061

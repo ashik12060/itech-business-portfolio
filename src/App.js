@@ -5,7 +5,11 @@ import Header from './pages/Header/Header';
 import Home from './pages/Home/Home';
 import {BrowserRouter,Routes, Route} from 'react-router-dom';
 import Products from './pages/Products/Products';
+<<<<<<< HEAD
 import Booking from './pages/Booking/Booking';
+=======
+import Footer from './pages/Footer/Footer';
+>>>>>>> e2e3b9fb60f7e5c7ddc6c90976d30157bdbab061
 
 function App() {
   return (
@@ -26,7 +30,10 @@ function App() {
         </Route>
         <Route path='/contact' element={<Contact></Contact>}>
         </Route>
+
+        <Route path="/products" element={<Products></Products>}></Route>
       </Routes>
+      <Footer></Footer>
       </BrowserRouter>
      
      

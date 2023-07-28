@@ -1,0 +1,10 @@
+li{
+    
+    list-style-type:none;
+}
+li:hover{
+    transition: 1s;
+    color: #ff5e14;
+    border-bottom: 1px solid;
+}
+

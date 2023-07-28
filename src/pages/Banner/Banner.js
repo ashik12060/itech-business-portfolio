@@ -4,8 +4,8 @@ import image from '../../images/business-meeting.jpg';
 const Banner = () => {
   return (
     <div>
-      <section>
-        <div className=" h-96 w-full relative banner-container">
+      <section className='lg:overflow-hidden md:overflow-hidden sm:overflow-hidden'>
+        <div className=" h-96 lg:w-full md:w-full sm:w-full relative banner-container ">
 
           <img src={image} alt="office-environment" className='w-full absolute mix-blend-overlay brightness-50' />
 
